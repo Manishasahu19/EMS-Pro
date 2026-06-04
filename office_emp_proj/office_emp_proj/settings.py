@@ -125,10 +125,5 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL='index'
-import os
-from django.contrib.auth import get_user_model
 
-User = get_user_model()
-if not User.objects.filter(username="admin").exists():
-    User.objects.create_superuser("admin", "admin@example.com", "Admin@12345")
     CSRF_TRUSTED_ORIGINS = ['https://ems-pro-o6nm.onrender.com']
