@@ -13,3 +13,6 @@ EMS Pro is a secure and modern web application built using **Django (Python)** a
 * **Frontend:** HTML5, CSS3, Bootstrap 5
 * **Database:** SQLite (Django ORM)
 * **Static Files:** WhiteNoise
+
+* Project link
+* https://ems-pro-o6nm.onrender.com
